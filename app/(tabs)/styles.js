@@ -37,6 +37,7 @@ import { StyleSheet} from 'react-native';
           padding: 10,
           borderRadius: 5,
           marginRight: 10,
+          fontSize: 11, //font size of the search bar in the home screen 
         },
         icon: {
           marginLeft: 10,

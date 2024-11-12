@@ -7,7 +7,7 @@ import styles from './styles';
 // More options here if want to change the background pic 
 // import IconImage from '../../assets/images/pixasquare-4ojhpgKpS68-unsplash.jpg';
 // import IconImage from '../../assets/images/stephan-bechert-yFV39g6AZ5o-unsplash.jpg';
-//  import IconImage from '../../assets/images/timothy-buck-psrloDbaZc8-unsplash.jpg';
+// import IconImage from '../../assets/images/timothy-buck-psrloDbaZc8-unsplash.jpg';
 // import IconImage from '../../assets/images/naomi-hebert-MP0bgaS_d1c-unsplash.jpg';
 // import IconImage from '../../assets/images/dane-deaner-qRfMB-IOQjE-unsplash.jpg';
 // import IconImage from '../../assets/images/avery-klein-JaXs8Tk5Iww-unsplash.jpg';
@@ -67,7 +67,7 @@ const App = () => {
        <View style={styles.searchContainer}>
          <TextInput
            style={styles.input}
-           placeholder="Enter information or a picture"
+           placeholder="Enter city or home feature (e.g., Austin, 3-bedroom)"
            placeholderTextColor="#aaa"
          />
          <TouchableOpacity onPress={openPhotoModal}>
@@ -288,7 +288,7 @@ const App = () => {
                    size={24}
                    color={petFriendly ? "green" : "gray"}
                  />
-                 <Text style={styles.checkboxText}>Must be pet-friendly</Text>
+                 <Text style={styles.checkboxText}>Pet-friendly</Text>
                </TouchableOpacity>
                <TouchableOpacity
                  style={styles.checkboxOption}
@@ -299,7 +299,7 @@ const App = () => {
                    size={24}
                    color={hasPool ? "green" : "gray"}
                  />
-                 <Text style={styles.checkboxText}>Must have a pool</Text>
+                 <Text style={styles.checkboxText}>Pool</Text>
                </TouchableOpacity>
                <TouchableOpacity
                  style={styles.checkboxOption}
@@ -310,7 +310,7 @@ const App = () => {
                    size={24}
                    color={hasGym ? "green" : "gray"}
                  />
-                 <Text style={styles.checkboxText}>Must have a gym</Text>
+                 <Text style={styles.checkboxText}>Gym</Text>
                </TouchableOpacity>
              </View>
            </View>
